@@ -20,3 +20,11 @@ After Go is installed, install Subfinder using the official ProjectDiscovery com
 
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
+
+## 3. Install dnsx
+
+go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+
+## 4. Install assetfinder
+
+go install github.com/tomnomnom/assetfinder@latest

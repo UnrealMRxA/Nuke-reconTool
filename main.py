@@ -1,6 +1,9 @@
 import os
 import sys
 
+# import your passive module here
+from modules import passive
+
 def clear():
     os.system("cls" if os.name == "nt" else "clear")
 
@@ -26,7 +29,9 @@ def main():
 
         choice = input("Select option: ").strip()
 
-        if choice == "5":
+        if choice == "1":
+            passive.run()
+        elif choice == "5":
             sys.exit(0)
         else:
             input("Module not implemented yet. Press Enter...")
