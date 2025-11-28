@@ -18,3 +18,5 @@ Follow the official instructions for your OS.
 
 After Go is installed, install Subfinder using the official ProjectDiscovery command:
 
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+
